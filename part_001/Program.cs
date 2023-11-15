@@ -1,8 +1,10 @@
 ﻿
-Console.WriteLine("введите первое число:");
+string message = "Value1: ";
+Console.WriteLine(message);
 int value1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("введите второе число:");
+string message2 = "Value2: ";
+Console.WriteLine(message2);
 int value2 = Convert.ToInt32(Console.ReadLine());
 
 int result = value1 + value2;
