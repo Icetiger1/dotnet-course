@@ -1,18 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.Clear();
+﻿Console.Clear();
 Console.CursorVisible = false;
 //Console.SetCursorPosition(30, 4);
-int left1 = 1;
+int left1 = 100;
 int top1 = 40;
 Console.SetCursorPosition(left1, top1);
 Console.WriteLine("+");
 
-int left2 = 2;
-int top2 = 28;
+int left2 = 50;
+int top2 = 40;
 Console.SetCursorPosition(left2, top2);
 Console.WriteLine("+");
 
 int left3 = 80;
-int top3 = 28;
+int top3 = 80;
 Console.SetCursorPosition(left3, top3);
 Console.WriteLine("+");
