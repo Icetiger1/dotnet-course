@@ -9,10 +9,10 @@ Console.WriteLine("+");
 
 int left2 = 2;
 int top2 = 28;
-Console.SetCursorPosition(left1, top1);
+Console.SetCursorPosition(left2, top2);
 Console.WriteLine("+");
 
-int left2 = 80;
-int top2 = 28;
-Console.SetCursorPosition(left1, top1);
+int left3 = 80;
+int top3 = 28;
+Console.SetCursorPosition(left3, top3);
 Console.WriteLine("+");
