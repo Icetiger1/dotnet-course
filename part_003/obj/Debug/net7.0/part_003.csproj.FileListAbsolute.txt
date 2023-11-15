@@ -1,0 +1,14 @@
+D:\Project\С#\dotnet-15-11-2023\part_003\bin\Debug\net7.0\part_003.exe
+D:\Project\С#\dotnet-15-11-2023\part_003\bin\Debug\net7.0\part_003.deps.json
+D:\Project\С#\dotnet-15-11-2023\part_003\bin\Debug\net7.0\part_003.runtimeconfig.json
+D:\Project\С#\dotnet-15-11-2023\part_003\bin\Debug\net7.0\part_003.dll
+D:\Project\С#\dotnet-15-11-2023\part_003\bin\Debug\net7.0\part_003.pdb
+D:\Project\С#\dotnet-15-11-2023\part_003\obj\Debug\net7.0\part_003.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\С#\dotnet-15-11-2023\part_003\obj\Debug\net7.0\part_003.AssemblyInfoInputs.cache
+D:\Project\С#\dotnet-15-11-2023\part_003\obj\Debug\net7.0\part_003.AssemblyInfo.cs
+D:\Project\С#\dotnet-15-11-2023\part_003\obj\Debug\net7.0\part_003.csproj.CoreCompileInputs.cache
+D:\Project\С#\dotnet-15-11-2023\part_003\obj\Debug\net7.0\part_003.dll
+D:\Project\С#\dotnet-15-11-2023\part_003\obj\Debug\net7.0\refint\part_003.dll
+D:\Project\С#\dotnet-15-11-2023\part_003\obj\Debug\net7.0\part_003.pdb
+D:\Project\С#\dotnet-15-11-2023\part_003\obj\Debug\net7.0\part_003.genruntimeconfig.cache
+D:\Project\С#\dotnet-15-11-2023\part_003\obj\Debug\net7.0\ref\part_003.dll
