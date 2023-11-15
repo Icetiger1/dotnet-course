@@ -1,11 +1,11 @@
 ﻿
 string message = "Value1: ";
-Console.WriteLine(message);
-int value1 = Convert.ToInt32(Console.ReadLine());
+Console.Write(message);
+int number1 = Convert.ToInt32(Console.ReadLine());
 
-string message2 = "Value2: ";
-Console.WriteLine(message2);
-int value2 = Convert.ToInt32(Console.ReadLine());
+message = "Value2: ";
+Console.Write(message);
+int number2 = Convert.ToInt32(Console.ReadLine());
 
-int result = value1 + value2;
-Console.WriteLine(result);
+int result = number1 + number2;
+Console.Write($"Result: {result}");
