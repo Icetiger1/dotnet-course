@@ -8,4 +8,4 @@ Console.Write(message);
 int number2 = Convert.ToInt32(Console.ReadLine());
 
 int result = number1 + number2;
-Console.Write($"Result: {number1} + {number1} = {result}");
+Console.Write($"Result: {number1} + {number2} = {result}");
