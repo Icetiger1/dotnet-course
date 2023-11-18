@@ -2,7 +2,7 @@ using Model;
 
 namespace Infrastructure
 {
-    class ContactPrint
+    public class ContactPrint
     {
         public string ContactToString(Contact contact)
         {
