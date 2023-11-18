@@ -8,7 +8,7 @@ public class Startup
     {
         RepositoryPrint repositoryPrint = new();
         ContactCreator contactCreator = new();
-        contactRepository repo = new();
+        ContactRepository repo = new();
 
         for (int i = 0; i < 10; i++)
         {
