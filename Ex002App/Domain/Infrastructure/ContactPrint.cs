@@ -13,6 +13,8 @@ namespace Infrastructure
             output += $"TelephoneNumber: {contact.TelephoneNumber}\n";
             output += $"DayOfBirth: {contact.DayOfBirth}\n";
             output += $"Email: {contact.Email}\n";
+            
+            return output;
         }
     }
 }
