@@ -5,11 +5,11 @@ namespace Model
 {
     public class Contact
     {
-        public string FirstName;
-        public string LastName;
-        public string TelephoneNumber;
-        public DateOnly DayOfBirth;
-        public string Email;
+        public string FirstName{ get; set; }
+        public string LastName{ get; set;}
+        public string TelephoneNumber{  get; set; }
+        public DateOnly DayOfBirth{ get; set; }
+        public string Email{get; set; }
 
         public Contact()
         {
