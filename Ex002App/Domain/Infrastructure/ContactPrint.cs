@@ -8,11 +8,11 @@ namespace Infrastructure
         {
             string output = string.Empty;
 
-            output += $"FirstName: {contac.FirstName}\n";
-            output += $"LastName: {contac.LastName}\n";
-            output += $"TelephoneNumber: {contac.TelephoneNumber}\n";
-            output += $"DayOfBirth: {contac.DayOfBirth}\n";
-            output += $"Email: {contac.Email}\n";
+            output += $"FirstName: {contact.FirstName}\n";
+            output += $"LastName: {contact.LastName}\n";
+            output += $"TelephoneNumber: {contact.TelephoneNumber}\n";
+            output += $"DayOfBirth: {contact.DayOfBirth}\n";
+            output += $"Email: {contact.Email}\n";
         }
     }
 }
