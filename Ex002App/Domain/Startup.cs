@@ -1,6 +1,7 @@
 using Infrastructure;
 using Persistance;
 
+namespace ContactApplication;
 public class Startup
 {
 
