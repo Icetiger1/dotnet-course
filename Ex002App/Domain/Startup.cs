@@ -1,24 +1,26 @@
 using Infrastructure;
-using Persistance;
+using Persistence;
 
-namespace ContactApplication;
-public class Startup
+namespace ContactApplication
 {
-
-    public static void Run()
+    public class Startup
     {
-        RepositoryPrint repositoryPrint = new();
-        ContactCreator contactCreator = new();
-        ContactRepository repo = new();
 
-        for (int i = 0; i < 10; i++)
+        public static void Run()
         {
-            repo.Append(contactCreator.GetContact());
+            RepositoryPrint repositoryPrint = new();
+            ContactCreator contactCreator = new();
+            ContactRepository repo = new();
+
+            for (int i = 0; i < 10; i++)
+            {
+                repo.Append(contactCreator.GetContact());
+            }
+
+            string res = repositoryPrint.Print(repo);
+            Console.WriteLine(res);
+
         }
 
-        string res = repositoryPrint.Print(repo);
-        Console.WriteLine(res);
-
     }
-
 }
