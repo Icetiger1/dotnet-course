@@ -1,17 +1,19 @@
-namespace Infrastructure;
-
-public class RepositoryPrint
+namespace Infrastructure
 {
-    public string Print(ContactRepository repository)
+    public class RepositoryPrint
     {
-        ContactPrint pc = new ContactPrint();
-        string output string.Empty;
-
-        var contacts = repository.GetAll();
-
-        foreach(Contacts contacts1 in contacts)
+        public string Print(ContactRepository repository)
         {
-            output += $"{pc.Print(contacts1)}\n";
+            ContactPrint pc = new ContactPrint();
+            string output = string.Empty;
+
+            var contacts = repository.GetAll();
+
+            foreach(Contacts contacts1 in contacts)
+            {
+                output += $"{pc.Print(contacts1)}\n";
+            }
+            return output;
         }
     }
 }
