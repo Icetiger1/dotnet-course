@@ -8,7 +8,7 @@ namespace Model
         public string FirstName;
         public string LastName;
         public string TelephoneNumber;
-        public DateOnly DayOfBirth;;
+        public DateOnly DayOfBirth;
         public string Email;
 
         public Contact()
