@@ -22,9 +22,9 @@ class Program
             );
 
         ContactPrint printer = new ContactPrint();
-        string output = printer.ContactPrint(contact1);
+        string output = printer.ContactToString(contact1);
         Console.WriteLine(output);
-        output = printer.ContactPrint(contact2);
+        output = printer.ContactToString(contact2);
         Console.WriteLine(output);
     }
 }
