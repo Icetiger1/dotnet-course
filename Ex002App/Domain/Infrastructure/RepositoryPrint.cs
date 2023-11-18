@@ -1,3 +1,5 @@
+using Persistence;
+
 namespace Infrastructure
 {
     public class RepositoryPrint
