@@ -1,7 +1,8 @@
 using System.Xml;
 using System;
-namespace Model
 
+namespace Model
+{
     public class Contact
     {
         public string FirstName;
@@ -29,3 +30,4 @@ namespace Model
         }
         
     }
+}

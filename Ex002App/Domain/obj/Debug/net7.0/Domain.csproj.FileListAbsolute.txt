@@ -1,0 +1,4 @@
+D:\Project\С#\dotnet-15-11-2023\Ex002App\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\С#\dotnet-15-11-2023\Ex002App\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Project\С#\dotnet-15-11-2023\Ex002App\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Project\С#\dotnet-15-11-2023\Ex002App\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
