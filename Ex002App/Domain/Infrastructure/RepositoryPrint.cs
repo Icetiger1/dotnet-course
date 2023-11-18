@@ -1,4 +1,5 @@
 using Persistence;
+using Model;
 
 namespace Infrastructure
 {
@@ -11,9 +12,9 @@ namespace Infrastructure
 
             var contacts = repository.GetAll();
 
-            foreach(Contacts contacts1 in contacts)
+            foreach(Contact contact1 in contacts)
             {
-                output += $"{pc.Print(contacts1)}\n";
+                output += $"{pc.ContactToString(contact1)}\n";
             }
             return output;
         }
