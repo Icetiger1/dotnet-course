@@ -9,7 +9,7 @@ class Program
             "Sergei", 
             "Kamianetskii", 
             "89101234567", 
-            new DateTime(1990,9,28), 
+            new DateOnly(1990,9,28), 
             "i@ksergey.ru"
             );
 
@@ -17,7 +17,7 @@ class Program
             "Viktor", 
             "Kamianetskii", 
             "89101234567", 
-            new DateTime(1990,9,28), 
+            new DateOnly(1990,9,28), 
             "i@kvictor.ru"
             );
 
