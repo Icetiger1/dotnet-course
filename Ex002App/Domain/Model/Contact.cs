@@ -16,7 +16,7 @@ namespace Model
             FirstName = string.Empty;
             LastName = string.Empty;
             TelephoneNumber = string.Empty;
-            DayOfBirth = string.Empty;
+            DayOfBirth = new DateOnly();
             Email = string.Empty;
         }
 
