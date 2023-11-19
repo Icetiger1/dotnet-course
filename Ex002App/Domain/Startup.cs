@@ -1,3 +1,4 @@
+using Domain.Infrastructure;
 using Infrastructure;
 using Persistence;
 
