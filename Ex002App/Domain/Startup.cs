@@ -21,6 +21,8 @@ namespace ContactApplication
             string res = repositoryPrint.Print(repo);
             Console.WriteLine(res);
 
+            Console.ReadKey();
+
         }
 
     }

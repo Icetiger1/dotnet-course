@@ -11,6 +11,7 @@ namespace Domain.Infrastructure
     {
         private string[] firstNames;
         private string[] lastNames;
+        private string[] mails;
 
         public ContactCreator(
             string pathToFistNamesFile = "first_names.txt",
@@ -18,6 +19,7 @@ namespace Domain.Infrastructure
         {
             this.firstNames = File.ReadAllLines(pathToFistNamesFile);
             this.lastNames = File.ReadAllLines(pathToLastNamesFile);
+            this.mails = new string[] { "i@mail.ru", "ya@mail.ru", "ooo@ya.ru", "gg@gmail.ru" };
         }
 
         public Contact GetContact()
@@ -26,6 +28,7 @@ namespace Domain.Infrastructure
             int lenghtLn = lastNames.Length;
             string firstName = this.firstNames[Random.Shared.Next(lenghtFn)];
             string lastName = this.lastNames[Random.Shared.Next(lenghtLn)];
+            string mail = this.mails[Random.Shared.Next(mails.Length)];
 
             Contact contact = new Contact();
             contact.FirstName = firstName;
@@ -39,6 +42,8 @@ namespace Domain.Infrastructure
                 Random.Shared.Next(10, 100),
                 Random.Shared.Next(10, 100)
             );
+            
+            contact.Email = mail;
 
             return contact;
         }
